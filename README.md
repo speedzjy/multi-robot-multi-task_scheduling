@@ -10,7 +10,7 @@ This repository contains the code for the multi-robot-multi-task scheduling modu
 >   + Code folder for real scheduling
 > + README.md
 
-The core algorithm code for multi-task scheduling can be found in [fespb.py](https://github.com/speedzjy/multi-robot-multi-task_scheduling/blob/main/real_scheduling/fespb/fespb.py). The code [multi_robot_multi_task_scheduling.py](https://github.com/speedzjy/multi-robot-multi-task_scheduling/blob/main/real_scheduling/scheduling_new.py) integrates the scheduling results of the FESP-B algorithm and considers the lab status for the scheduling of robots and stations, thus forming the multi-robot-multi-task scheduling module.
+The core algorithm code for multi-task scheduling can be found in [fespb.py](https://github.com/speedzjy/multi-robot-multi-task_scheduling/blob/main/real_scheduling/fespb/fespb.py). The code [multi_robot_multi_task_scheduling.py](https://github.com/speedzjy/multi-robot-multi-task_scheduling/blob/main/real_scheduling/scheduling.py) integrates the scheduling results of the FESP-B algorithm and considers the lab status for the scheduling of robots and stations, thus forming the multi-robot-multi-task scheduling module.
 
 The simulation part of the code is essentially similar to the real_scheduling part, except that the simulation part additionally provides simulation examples in the paper.
 
